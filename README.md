@@ -2,6 +2,7 @@
 
 Not working
 
++ delete package-lock.json
 + set ng-packgr to version 19.0.1
 + npm i
 + npm link @test/assets
