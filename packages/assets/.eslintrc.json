@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "../../.eslintrc.json",
+        "../../lint/common.eslint.rules.json"
+    ]
+}

@@ -1,0 +1,9 @@
+@use '@test/assets/styles/variables';
+
+:host {
+    .my-div {
+        @extend .my-color-class;
+
+        background-color: map-get(variables.$foreground, base);
+    }
+}
