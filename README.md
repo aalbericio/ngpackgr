@@ -1,6 +1,6 @@
 # Test changes in NG-PACKGR 19
 
-Not working
+> This will trigger the error
 
 + delete package-lock.json
 + set ng-packgr to version 19.0.1
@@ -8,9 +8,9 @@ Not working
 + npm link @test/assets
 + npm run build
 
-> This will trigger the error
+<br>
 
-Working
+> Bellow is just working fine (as always)
 
 + delete package-lock.json
 + set ng-packgr to version 18.2.1
@@ -18,4 +18,4 @@ Working
 + npm link @test/assets
 + npm run build
 
-> Build will run just fine (as always)
+
